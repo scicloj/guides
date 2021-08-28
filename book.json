@@ -1,0 +1,80 @@
+{
+    "gitbook": ">=3.2.3",
+    "title": "SciCloj Guides",
+    "author": "SciCloj",
+    "description": "Using Clojure for Data Science",
+    "styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    },
+    "plugins": [
+        "anchor-headings-lambda",
+        "callouts",
+        "codeblock-disable-glossary",
+        "folding-chapters",
+        "-glossary",
+        "-highlight",
+        "klipse",
+        "newtabs",
+        "prism",
+        "sectionx",
+        "simpletabs",
+        "-sharing",
+        "splitter",
+        "terminull-light",
+        "theme-jr0cket",
+        "toggle-chapters",
+        "toolbar",
+        "youtube",
+        "wide-page"
+    ],
+    "pluginsConfig": {
+        "callouts": {
+            "showTypeInHeader": false,
+            "star": {
+                "alert": "warning",
+                "picto": "fa-star"
+            }
+        },
+        "sectionx": {
+            "tag": "b"
+        },
+        "prism": {
+            "ignore": [
+                "eval-clojure"
+            ]
+        },
+       "toolbar": {
+           "buttons":
+           [
+               {
+                   "label": "Clojurians Zulip dicussions",
+                   "icon": "fa fa-comments-o",
+                   "url": "https://clojurians.zulipchat.com/"
+               },
+               {
+                   "label": "GitHub",
+                   "icon": "fa fa-github",
+                   "url": "https://github.com/scicloj/"
+               }
+           ]
+       }
+    },
+    "links": {
+        "sidebar": {
+            "SciCloj.org": "https://scicloj.org/"
+        }
+    },
+    "variables": {
+        "host": "practical.li",
+        "website": "https://scicloj.org/",
+        "KeyCtrl": "<kbd>Ctrl</kbd>",
+        "KeyEnter": "<kbd>Enter</kbd>",
+        "KeyEsc": "<kbd>Esc</kbd>",
+        "KeyUpArrow": "<kbd>↑</kbd>",
+        "KeyDownArrow": "<kbd>↓</kbd>"
+    }
+}
